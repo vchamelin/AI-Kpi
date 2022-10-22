@@ -1,4 +1,4 @@
-# AI-Kpi
+# AI-KPI
 
 In this repository I do laboratory work on artificial intelligence.
 
