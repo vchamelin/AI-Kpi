@@ -1,0 +1,18 @@
+To play, type:   python pacman.py
+For help, type:  python pacman.py -h
+
+100 eras of random ghosts:
+python pacman.py -l smallClassic -p AlphaBetaAgent -a evalFn=better -q -n 100
+python pacman.py -l minimaxClassic -p AlphaBetaAgent -a evalFn=better -q -n 100
+python pacman.py -l mediumClassic -p AlphaBetaAgent -a evalFn=better -q -n 100
+python pacman.py -l openClassic -p AlphaBetaAgent -a evalFn=better -q -n 100
+python pacman.py -l testClassic -p AlphaBetaAgent -a evalFn=better -q -n 100   
+
+100 Ages of Directional Ghosts:
+python pacman.py -l smallClassic -p AlphaBetaAgent -a evalFn=better -q -n 100 -g DirectionalGhost
+python pacman.py -l minimaxClassic -p AlphaBetaAgent -a evalFn=better -q -n 100 -g DirectionalGhost
+python pacman.py -l mediumClassic -p AlphaBetaAgent -a evalFn=better -q -n 100 -g DirectionalGhost
+python pacman.py -l openClassic -p AlphaBetaAgent -a evalFn=better -q -n 100 -g DirectionalGhost
+python pacman.py -l testClassic -p AlphaBetaAgent -a evalFn=better -q -n 100  -g DirectionalGhost
+
+See http://inst.eecs.berkeley.edu/~cs188 for more information.
