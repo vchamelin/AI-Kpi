@@ -8,7 +8,6 @@ python pacman.py -l mediumClassic -p AlphaBetaAgent -q -n 100
 python pacman.py -l openClassic -p AlphaBetaAgent -q -n 100
 python pacman.py -l testClassic -p AlphaBetaAgent -q -n 100
 
-100 Ages of Directional Ghosts :
 python pacman.py -l smallClassic -p AlphaBetaAgent -q -n 100 -g DirectionalGhost
 python pacman.py -l minimaxClassic -p AlphaBetaAgent -q -n 100 -g DirectionalGhost
 python pacman.py -l mediumClassic -p AlphaBetaAgent -q -n 100 -g DirectionalGhost
